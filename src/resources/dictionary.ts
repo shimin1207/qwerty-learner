@@ -4054,36 +4054,36 @@ const germanExam: DictionaryResource[] = [
     tags: ['基础'],
     url: '/dicts/en2german.json',
     length: 5025,
-    language: 'en',
-    languageCategory: 'de',
-  },
-]
+    语言：'en'，
+    languageCategory：'de'，
+  }，，
+这是给出的
 
 // 哈萨克语哈拼词典
-const kazakhHapinDicts: DictionaryResource[] = [
+const  kazakhhapindicts：dictionaryResource [ ] = [
   {
-    id: 'kazakh_basic_3000_arabic_hapin',
+    id：'shing_subsic_300_farpin'，
     name: '基础3000词(老文字版)',
     description: '哈萨克语基础3000词(哈拼老文字版)',
     category: '哈萨克语',
     tags: ['老文字', '哈拼'],
-    url: '/dicts/kazakh_basic_3000_arabic_hapin.json',
-    length: 3002,
-    language: 'hapin',
-    languageCategory: 'kk',
-  },
+    URL：'/ dacts/ dacts
+    长度：3002，
+    语言：'hapin'，
+    languageCategory：'kk'，
+  }，，
   {
-    id: 'kazakh_basic_3000_cyrillic_hapin',
+    id：'屏幕_hust_3000_3000_hapin'，
     name: '基础3000词(西里尔字母版)',
     description: '哈萨克语基础3000词(哈拼西里尔字母版)',
     category: '哈萨克语',
     tags: ['西里尔字母', '哈拼'],
-    url: '/dicts/kazakh_basic_3000_cyrillic_hapin.json',
-    length: 3002,
-    language: 'hapin',
-    languageCategory: 'kk',
-  },
-]
+    URL：'/dicts。
+    长度：3002，
+    语言：'hapin'，
+    languageCategory：'kk'，
+  }，，
+这是给出的
 
 //印尼语高频词汇
 const indonesianDicts: DictionaryResource[] = [
@@ -4132,7 +4132,24 @@ export const dictionaryResources: DictionaryResource[] = [
   //   length: 20,
   //   language: 'ja',
   // },
+
+{
+    "id": "流利说练习",
+    "name": "流利说练习",
+    "description": "流利说练习",
+    "category": "英语学习",
+    "url": "/dicts/流利说练习.json",
+    "length": 2025,
+    "language": "en",
+  },
+
+
+
+
+
+
 ]
+
 
 export const dictionaries: Dictionary[] = dictionaryResources.map((resource) => ({
   ...resource,
